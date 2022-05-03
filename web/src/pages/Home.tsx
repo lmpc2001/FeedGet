@@ -1,9 +1,8 @@
 import React from "react"
+import Widget from "../components/Widget"
 
 export default function Home(){
     return(
-        <div>
-           <h1>Hello World</h1>
-        </div>
+        <Widget/>
     )
 }
