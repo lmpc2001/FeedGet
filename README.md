@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="FeedGet" src="./assets/logo.png" />
+    <img alt="FeedGet" src="https://github.com/lmpc2001/FeedGet/blob/main/assets/Capa.png" />
 </h1>
 
 
