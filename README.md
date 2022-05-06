@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/plantmanager.png" alt="FeedGet">
+  <img src="https://github.com/lmpc2001/FeedGet/blob/main/assets/button-trigger.png" alt="FeedGet">
 </p>
 
 <p align="center"> 
