@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="PlantManager" src="./assets/logo.png" />
+    <img alt="FeedGet" src="./assets/logo.png" />
 </h1>
 
 
