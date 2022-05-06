@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/lmpc2001/FeedGet/blob/main/assets/button-trigger.png" alt="FeedGet">
+  <img style="width: 200px; height: 60px" src="https://github.com/lmpc2001/FeedGet/blob/main/assets/button-trigger.png" alt="FeedGet">
 </p>
 
 <p align="center"> 
@@ -22,16 +22,11 @@
 </p>
 
 <p align="center">
- <a href="#about">About</a> |
  <a href="#technologies">Technologies</a> | 
  <a href="#layout">Layout</a> | 
- <a href="#project">Project</a> |
- <a href="#user-content-license">License</a>
+ <a href="#getting-started">Project</a> |
+ <a href="#license">License</a>
 </p>
-
-
-## About
-♻️ PlantManager - We live surrounded by nature, we have plants in our homes, in our offices, it's almost like a state of mind, it's peaceful. So for sure, we don't want our plants to die just because we forget to water them. With that in mind, PlantManager alerts you whenever a plant needs watering, allowing us to never forget our little friends again. 
 
 ---
 
@@ -61,8 +56,9 @@ The application layout is available on Figma:
 ## Getting Started
 Before you begin, you will need to have the following tools installed on your machine:
 * <a href="https://git-scm.com"> Git </a>
-* <a href="https://expo.dev/"> Expo </a>
+* <a href="https://nodejs.org/en/"> NodeJS (versão LTS) </a>
 * <a href="https://yarnpkg.com/"> Yarn </a> or <a href="https://www.npmjs.com/"> NPM </a>
+* <a href="https://expo.dev/"> Expo </a>
 
 
 ### Installing and running the project
@@ -73,19 +69,37 @@ Before you begin, you will need to have the following tools installed on your ma
 $ git clone https://github.com/lmpc2001/FeedGet.git
 
 # Access the project folder in your terminal
-$ cd PlantManager
+$ cd FeedGet
 
-# Install the dependencies
+# Backend
+## Install the dependencies
+$ cd /backend
 $ npm install 
 # or
 $ yarn install
 
-# Run the application in development mode
+# Run the backend in development mode
+$ yarn dev
+
+# Frontend
+## Install the dependencies
+$ cd /frontend
+$ npm install 
+# or
+$ yarn install
+
+# Run the frontend
+$ yarn start
+
+# Mobile
+## Install the dependencies
+$ cd /mobile
+$ npm install 
+# or
+$ yarn install
+
+# Run mobile in development mode
 $ expo start
-
-# Run the backend to get the informations
-$ json-server ./src/services/server.json --host <YOUR_IP> --port <PORT> --delay 700
-
 ```
 
 ---
