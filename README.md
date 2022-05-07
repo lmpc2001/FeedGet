@@ -5,11 +5,11 @@
 
 <p align="center">
 	
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lmpc2001/FeedGet?color=996DFF&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lmpc2001/FeedGet?color=96DFF&style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lmpc2001/FeedGet?color=8257E5&style=flat-square">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lmpc2001/FeedGet?color=257E5&style=flat-square">
     
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=8257E5&style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=257E5&style=flat-square">
 
 </p>
 
