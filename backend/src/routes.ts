@@ -1,43 +1,30 @@
 import { NextFunction, Request, Response, Router } from "express";
-import nodemailer from 'nodemailer';
-import { prisma } from "./prisma";
+import { NodemailerMailAdapter } from "./adapters/nodemailer/nodemailer_mail_adapter";
+import { PrismaFeedbackRepository } from "./repositories/prisma/prisma_feedback_repository";
+import { SubmitFeedbackUseCase } from "./use_cases/submit_feedback_use_case";
 
 const router = Router();
 
+
+
 router.post('/feedbacks', async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const { comment, type, screenshot } = req.body
+        const { comment, type, screenshot } = req.body;
 
-        const feedback = await prisma.feedback.create({
-            data: {
-                comment,
-                type,
-                screenshot
-            }
+        const prismaFeedbackRepository = new PrismaFeedbackRepository();
+        const nodemailerMailAdapter = new NodemailerMailAdapter();
+
+        const submitFeedbackUseCase = new SubmitFeedbackUseCase(prismaFeedbackRepository, nodemailerMailAdapter);
+
+        await submitFeedbackUseCase.handle({
+            type,
+            comment,
+            screenshot
         })
 
-        const transport = nodemailer.createTransport({
-            host: "smtp.mailtrap.io",
-            port: 2525,
-            auth: {
-                user: "ee83922259eee4",
-                pass: "78cbe8dbef828c"
-            }
-        });
 
-        await transport.sendMail({
-            from: 'Equipa Feedget <develop@feedget.com',
-            to: 'Luís Costa <email@testes.com>',
-            subject: 'Novo Feedback',
-            html: [
-                `<div style="font-family:sans-serif; font-size: 16px; color: #111;">`,
-                `<p>Tipo de Feedback: ${type}</p>`,
-                `<p>TComentário: ${comment}</p>`,
-                '<div>'
-            ].join('\n')
-        })
-
-        return res.status(201).json({ data: feedback })
+        
+        return res.status(201).send();
     } catch (error) {
         next(error);
     }
