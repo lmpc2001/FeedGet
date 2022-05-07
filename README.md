@@ -5,11 +5,11 @@
 
 <p align="center">
 	
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lmpc2001/FeedGet?color=%2304D361&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lmpc2001/FeedGet?color=996DFF&style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lmpc2001/FeedGet?style=flat-square">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lmpc2001/FeedGet?color=8257E5&style=flat-square">
     
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=8257E5&style=flat-square">
 
 </p>
 
@@ -47,7 +47,7 @@ This project was developed using the following techs:
 The application layout is available on Figma:
 
 <a href="https://www.figma.com/file/1ntU9zz4g8gYgR8Hfa4JUe/Feedback-Widget-(Community)">
-  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/Access%20to%20the%20layout-Figma-%2304D361">
 </a>
 
 
