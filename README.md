@@ -32,13 +32,15 @@
 
 ## Technologies
 This project was developed using the following techs:
-* <a href="">NodeJS</a>
-* <a href="">TypeScript</a>
-* <a href="">PrismaORM</a>
-* <a href="">SQLite/PostgreSQL</a>
-* <a href="">ReactJS</a>
-* <a href="">React Native</a>
-* <a href="">Expo</a>
+* <a href="https://nodejs.org/en/">NodeJS</a>
+* <a href="https://www.typescriptlang.org/">TypeScript</a>
+* <a href="https://www.prisma.io/">PrismaORM</a>
+* <a href="https://sqlite.org/index.html">SQLite</a>/<a href="https://www.postgresql.org/">PostgreSQL</a>
+* <a href="https://reactjs.org/">ReactJS</a>
+* <a href="https://reactnative.dev/">React Native</a>
+* <a href="https://expo.dev/client">Expo</a>
+* <a href="https://vercel.com/">Vercel</a>
+* <a href="https://railway.app/">Railwayverce</a>
 
 ---
 
@@ -61,7 +63,7 @@ Before you begin, you will need to have the following tools installed on your ma
 * <a href="https://expo.dev/"> Expo </a>
 
 
-### Installing and running the project
+### Installing and running the project on your computer
 
 ```bash
 
